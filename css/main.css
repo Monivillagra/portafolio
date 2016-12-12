@@ -1,0 +1,70 @@
+.imgFondo {
+	background-image: url(../img/background/background5.jpg);
+    max-width: 100%;
+    height: auto;
+}
+.opacidad{
+	opacity: 0.7;
+}
+/*fuente logo*/
+@font-face {
+	font-family: "SpiroFace.ttf";
+	src: url("../fonts/spiro-face/SpiroFace.ttf");
+}
+
+#letraLogo {
+	font-family: "SpiroFace.ttf";
+	font-size: 100%;	 
+	margin: -36% 0% 0% 21%;
+}
+/*fuente texto logo*/
+@font-face {
+	font-family: "Sebastiana personal use.otf";
+	src: url("../fonts/sebastiana/Sebastiana personal use.otf");
+}
+.textLogo {
+	font-family: "sebastiana personal use.otf";
+}
+.fotoPerfil{
+    width: 35%;
+    height: 25vw;
+    margin: 5% 0% 0% 35%;
+    padding: 1%;
+    border: 1px solid white;
+}
+.redSocial:hover {
+	-webkit-transform: rotateY(150deg); 
+    transform: rotateY(150deg);
+}
+/* For mobile phones: */
+[class*="redSocial"] {
+    height: 12vw;
+    margin: 0% 0% 0% 20%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .redSocial:hover {
+	-webkit-transform: rotateY(150deg); 
+    transform: rotateY(150deg);
+	}
+    .redSocial {height: 8vw;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .redSocial:hover {
+	-webkit-transform: rotateY(150deg); 
+    transform: rotateY(150deg);
+	}
+    .redSocial {height: 5vw;}
+}
+.contBtnFooter{
+	height: 200px;
+}
+.imgProyectos {
+	filter: sepia(100%);
+/*signamos los Prefijos de los Navegadores específicos*/
+-webkit-filter: sepia(100%);
+-moz-filter: sepia(100%);
+-o-filter: sepia(100%);
+-ms-filter: sepia(100%);
+}
