@@ -339,21 +339,36 @@
         </div>
     </footer>
     <!-- Footer Section -->
-    <script src="assets/js/jquery-2.1.3.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.easing.1.3.js"></script>
-    <script src="assets/js/classie.js"></script>
-    <script src="assets/js/count-to.js"></script>
-    <script src="assets/js/jquery.appear.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/jquery.fitvids.js"></script>
-    <script src="assets/js/jqBootstrapValidation.js"></script>
-    <script src="assets/js/contact_me.js"></script>
-    <script src="assets/js/material.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <!-- <script src="https://maps.googleapis.com/maps/api/js"></script> -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA55Q1wYGZRWzOyPVyBmZZxavcEzjRcd10&callback=initMap"></script>
-    <script src="assets/js/google-map-init.js"></script>
-    <script src="assets/js/script.js"></script>
+    <!-- map -->
+    <!-- <style type="text/css">
+        html, body { height: 100%; margin: 0; padding: 0; }
+        #map { height: 100%; }
+    </style> -->
+    <script type="text/javascript">
+        var map;
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: {lat: -34.397, lng: 150.644},
+                zoom: 8
+            });
+        }
+    </script>
+<script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?AIzaSyCAz6rlxS_Kh7p0fmL1jITOY-w2uMY7tvY&callback=initMap"></script>
+<!-- map -->
+<script src="assets/js/jquery-2.1.3.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.easing.1.3.js"></script>
+<script src="assets/js/classie.js"></script>
+<script src="assets/js/count-to.js"></script>
+<script src="assets/js/jquery.appear.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/jquery.fitvids.js"></script>
+<script src="assets/js/jqBootstrapValidation.js"></script>
+<script src="assets/js/contact_me.js"></script>
+<script src="assets/js/material.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js"></script> -->
+<script src="assets/js/google-map-init.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
